@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+}
+
+:root {
+    --myblack: #000000;
+    --myYellow: #f0e80c;
+}
+
+nav {
+    background-color: var(--myblack);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}

@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+:root {
+    --myblack: #000000;
+    --myYellow: #f0e80c;
+}
+
+nav {
+    background-color: var(--myblack);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.section1 {
+    background-image: url('Image/science.JPG');
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.text-blue, .text-bold{
+    font-weight: bold;
+}
+
+.pic img {
+    object-fit: cover;
+}
+
+.pic img:hover {
+    border: 1px solid #ffff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.section3 {
+    background-color: var(--myblack);
+}
+
+.phot img {
+    object-fit: cover;
+}
+
+.phot img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.title p {
+    font-weight: bold;
+}
+
+.section5 {
+    background-color: var(--myblack);
+}
+
+.talk p{
+    text-shadow: 2px 2px #000000;
+    font-size: 35px;
+}
+
+.req {
+    border: 3px solid hsl(210, 100%, 56%);
+    padding: 10px 7px;
+}
+
+.req a {
+    font-weight: bold;
+}
+
+.footer-end {
+    background-color: var(--myblack);
+}
